@@ -1,0 +1,8 @@
+# Per-folder ignores for app
+# Ignore local env and OS files
+.env.local
+.DS_Store
+
+# Build outputs (if any)
+.next/
+.output/

@@ -1,0 +1,5 @@
+# Public folder local ignores
+.DS_Store
+Thumbs.db
+# Ignore uploads or temp assets (uncomment if used)
+# uploads/

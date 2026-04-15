@@ -1,0 +1,3 @@
+# Styles folder ignores
+.DS_Store
+.sass-cache/
