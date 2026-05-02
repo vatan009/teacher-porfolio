@@ -4,18 +4,18 @@ import { Analytics } from '@vercel/analytics/next'
 import './globals.css'
 import './portfolio.css'
 
-const inter = Inter({ 
+const inter = Inter({
   subsets: ["latin"],
   variable: "--font-inter",
 });
 
-const playfair = Playfair_Display({ 
+const playfair = Playfair_Display({
   subsets: ["latin"],
   variable: "--font-playfair",
 });
 
 export const metadata: Metadata = {
-  title: 'Dr. Sarah Mitchell | Faculty Portfolio',
+  title: 'Dr. Ravi Banoth | Faculty Portfolio',
   description: 'Assistant Professor, Department of Electrical & Computer Engineering',
   generator: 'v0.app',
   icons: {
