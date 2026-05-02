@@ -15,7 +15,7 @@ const playfair = Playfair_Display({
 });
 
 export const metadata: Metadata = {
-  title: "Dr. Ravi Banoth | Faculty Portfolio",
+  title: "Dr. Ravi Banoth",
   description:
     "Assistant Professor, Department of Electrical & Computer Engineering",
   generator: "v0.app",
