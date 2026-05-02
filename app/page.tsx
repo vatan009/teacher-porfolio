@@ -1,22 +1,32 @@
-"use client"
+"use client";
 
-import { useState } from "react"
-import Sidebar from "@/components/Sidebar"
-import Navbar from "@/components/Navbar"
-import Content from "@/components/Content"
+import { useState } from "react";
+import Sidebar from "@/components/Sidebar";
+import Navbar from "@/components/Navbar";
+import Content from "@/components/Content";
 
-type Section = "about" | "experience" | "publications" | "education" | "contact"
+type Section =
+  | "about"
+  | "experience"
+  | "publications"
+  | "education"
+  | "achievements"
+  | "contact"
+  | "resume";
 
 export default function App() {
-  const [activeSection, setActiveSection] = useState<Section>("about")
+  const [activeSection, setActiveSection] = useState<Section>("about");
 
   return (
     <div className="app-container">
       <Sidebar />
       <div className="main-wrapper">
-        <Navbar activeSection={activeSection} onSectionChange={setActiveSection} />
+        <Navbar
+          activeSection={activeSection}
+          onSectionChange={setActiveSection}
+        />
         <Content activeSection={activeSection} />
       </div>
     </div>
-  )
+  );
 }

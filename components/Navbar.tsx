@@ -1,8 +1,15 @@
-type Section = "about" | "experience" | "publications" | "education" | "contact"
+type Section =
+  | "about"
+  | "experience"
+  | "publications"
+  | "education"
+  | "achievements"
+  | "contact"
+  | "resume";
 
 interface NavbarProps {
-  activeSection: Section
-  onSectionChange: (section: Section) => void
+  activeSection: Section;
+  onSectionChange: (section: Section) => void;
 }
 
 const navItems: { id: Section; label: string }[] = [
@@ -10,10 +17,15 @@ const navItems: { id: Section; label: string }[] = [
   { id: "experience", label: "Experience" },
   { id: "publications", label: "Publications" },
   { id: "education", label: "Education" },
+  { id: "achievements", label: "Achievements" },
   { id: "contact", label: "Contact" },
-]
+  { id: "resume", label: "Resume" },
+];
 
-export default function Navbar({ activeSection, onSectionChange }: NavbarProps) {
+export default function Navbar({
+  activeSection,
+  onSectionChange,
+}: NavbarProps) {
   return (
     <nav className="navbar">
       <ul className="nav-list">
@@ -29,5 +41,5 @@ export default function Navbar({ activeSection, onSectionChange }: NavbarProps) 
         ))}
       </ul>
     </nav>
-  )
+  );
 }
