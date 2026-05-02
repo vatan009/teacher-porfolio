@@ -15,27 +15,28 @@ const playfair = Playfair_Display({
 });
 
 export const metadata: Metadata = {
-  title: 'Dr. Ravi Banoth | Faculty Portfolio',
-  description: 'Assistant Professor, Department of Electrical & Computer Engineering',
-  generator: 'v0.app',
+  title: "Dr. Ravi Banoth | Faculty Portfolio",
+  description:
+    "Assistant Professor, Department of Electrical & Computer Engineering",
+  generator: "v0.app",
   icons: {
     icon: [
       {
-        url: '/icon-light-32x32.png',
-        media: '(prefers-color-scheme: light)',
+        url: "/icon-light-32x32.png",
+        media: "(prefers-color-scheme: light)",
       },
       {
-        url: '/icon-dark-32x32.png',
-        media: '(prefers-color-scheme: dark)',
+        url: "/icon-dark-32x32.png",
+        media: "(prefers-color-scheme: dark)",
       },
       {
-        url: '/icon.svg',
-        type: 'image/svg+xml',
+        url: "/iiitt-logo.png",
+        type: "image/svg+xml",
       },
     ],
-    apple: '/apple-icon.png',
+    apple: "/iiitt-logo.png",
   },
-}
+};
 
 export default function RootLayout({
   children,
