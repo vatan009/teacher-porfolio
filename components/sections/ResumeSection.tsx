@@ -10,7 +10,6 @@ export default function ResumeSection() {
 
       <div className="resume-container">
         <div className="resume-card">
-           
           <a
             href="/resume.pdf"
             download="Dr_Ravi_Banoth_CV.pdf"

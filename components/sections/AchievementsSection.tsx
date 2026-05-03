@@ -68,7 +68,7 @@ export default function AchievementsSection() {
 
       <div className="achievement-grid">
         {/* Professional Memberships */}
-        <div className="achievement-card">
+        <div className="achievement-card" style={{ gridColumn: "1 / -1" }}>
           <h3>Professional Memberships</h3>
           <ul>
             {memberships.map((membership, idx) => (
@@ -78,7 +78,7 @@ export default function AchievementsSection() {
         </div>
 
         {/* Invited Talks */}
-        <div className="achievement-card">
+        <div className="achievement-card" style={{ gridColumn: "1 / -1" }}>
           <h3>Invited Talks & Presentations</h3>
           {talks.map((talk, idx) => (
             <div

@@ -75,11 +75,8 @@ export default function Sidebar() {
           <p className="profile-dept">
             Department of Electronics &amp; Communication Engineering
           </p>
-          {/* <br /> */}
-          <div className="mt-2">
-            <p className="text-primary">
-              Indian Institute of Information Technology,Tiruchirapalli
-            </p>
+          <div className="sidebar-institution">
+            Indian Institute of Information Technology, Tiruchirapalli
           </div>
         </div>
       </div>
@@ -116,7 +113,7 @@ export default function Sidebar() {
               rel="noopener noreferrer"
             >
               <ScholarIcon />
-              <span style={{ marginLeft: "0.5rem" }}>Scholar</span>
+              <span className="social-link-text">Scholar</span>
             </a>
           </li>
           <li>
@@ -126,7 +123,7 @@ export default function Sidebar() {
               rel="noopener noreferrer"
             >
               <LinkedInIcon />
-              <span style={{ marginLeft: "0.5rem" }}>LinkedIn</span>
+              <span className="social-link-text">LinkedIn</span>
             </a>
           </li>
           <li>
@@ -136,7 +133,7 @@ export default function Sidebar() {
               rel="noopener noreferrer"
             >
               <OrcidIcon />
-              <span style={{ marginLeft: "0.5rem" }}>ORCID</span>
+              <span className="social-link-text">ORCID</span>
             </a>
           </li>
           <li>
@@ -146,7 +143,7 @@ export default function Sidebar() {
               rel="noopener noreferrer"
             >
               <ResearchGateIcon />
-              <span style={{ marginLeft: "0.5rem" }}>ResearchGate</span>
+              <span className="social-link-text">ResearchGate</span>
             </a>
           </li>
           <li>
@@ -156,7 +153,7 @@ export default function Sidebar() {
               rel="noopener noreferrer"
             >
               <ScopusIcon />
-              <span style={{ marginLeft: "0.5rem" }}>Scopus</span>
+              <span className="social-link-text">Scopus</span>
             </a>
           </li>
           <li>
@@ -166,7 +163,7 @@ export default function Sidebar() {
               rel="noopener noreferrer"
             >
               <VidwanIcon />
-              <span style={{ marginLeft: "0.5rem" }}>Vidwan</span>
+              <span className="social-link-text">Vidwan</span>
             </a>
           </li>
         </ul>
