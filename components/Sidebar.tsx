@@ -75,7 +75,7 @@ export default function Sidebar() {
           <p className="profile-dept">
             Department of Electronics &amp; Communication Engineering
           </p>
-          <div className="sidebar-institution">
+          <div className="text-primary">
             Indian Institute of Information Technology, Tiruchirapalli
           </div>
         </div>
