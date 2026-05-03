@@ -168,6 +168,40 @@
   background-color: oklch(0.15 0.015 230 / 0.9);
 }
 
+.navbar-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.navbar-actions {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.theme-toggle-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.75rem 1rem;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  background: transparent;
+  color: var(--foreground);
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  white-space: nowrap;
+}
+
+.theme-toggle-button:hover {
+  background-color: var(--primary);
+  color: var(--primary-foreground);
+  border-color: var(--primary);
+}
+
 .nav-list {
   display: flex;
   list-style: none;
@@ -869,7 +903,24 @@
 
   .contact-section,
   .links-section {
-    display: none;
+    display: block;
+  }
+
+  .links-list {
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+
+  .resume-container,
+  .achievement-grid,
+  .contact-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
+  .pdf-viewer {
+    min-height: 420px;
   }
 
   .main-content {

@@ -75,6 +75,12 @@ export default function Sidebar() {
           <p className="profile-dept">
             Department of Electronics &amp; Communication Engineering
           </p>
+          {/* <br /> */}
+          <div className="mt-2">
+            <p className="text-primary">
+              Indian Institute of Information Technology,Tiruchirapalli
+            </p>
+          </div>
         </div>
       </div>
 
@@ -115,7 +121,7 @@ export default function Sidebar() {
           </li>
           <li>
             <a
-              href="https://www.linkedin.com/in/dr-ravi-kumar-banoth-ph-d-iit-dhanbad-411011105/"
+              href="https://www.linkedin.com/in/dr-ravi-banoth-phd-iit-dhn-411011105/"
               target="_blank"
               rel="noopener noreferrer"
             >

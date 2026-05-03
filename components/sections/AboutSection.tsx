@@ -24,7 +24,7 @@ export default function AboutSection() {
         explore other sections of this website to learn more about me and my
         research.
       </p>
-      <h3>Supervisor</h3>
+      <h3><span>phd supervisor</span></h3>
       <p>
         Prof. Jaisingh Thangaraj, Associate Professor, Department of Electronics
         Engineering, IIT(ISM), Dhanbad.

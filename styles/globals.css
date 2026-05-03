@@ -1,5 +1,5 @@
-@import 'tailwindcss';
-@import 'tw-animate-css';
+@import "tailwindcss";
+@import "tw-animate-css";
 
 @custom-variant dark (&:is(.dark *));
 
@@ -41,7 +41,7 @@
 }
 
 @theme inline {
-  --font-sans: 'Geist', 'Geist Fallback', system-ui;
+  --font-sans: "Geist", "Geist Fallback", system-ui;
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --color-card: var(--card);
@@ -63,18 +63,28 @@
     scroll-behavior: smooth;
     /* Prevents layout shift when scrollbar appears */
     scrollbar-gutter: stable;
+    transition:
+      background-color 0.25s ease,
+      color 0.25s ease;
   }
 
   body {
     @apply bg-background text-foreground antialiased;
+    transition:
+      background-color 0.25s ease,
+      color 0.25s ease;
     /* Responsive base font size */
     font-size: clamp(0.875rem, 0.5vw + 0.75rem, 1rem);
     font-feature-settings: "cv02", "cv03", "cv04", "gray";
   }
 
   /* Responsive Headings */
-  h1 { @apply text-4xl md:text-5xl lg:text-6xl font-black tracking-tighter; }
-  h2 { @apply text-2xl md:text-3xl lg:text-4xl font-bold tracking-tight; }
+  h1 {
+    @apply text-4xl md:text-5xl lg:text-6xl font-black tracking-tighter;
+  }
+  h2 {
+    @apply text-2xl md:text-3xl lg:text-4xl font-bold tracking-tight;
+  }
 }
 
 /* --- 3. Responsive Components --- */

@@ -649,7 +649,7 @@ function ContactSection() {
           <h3>Profiles</h3>
           <p>
             <a
-              href="https://www.linkedin.com/in/dr-ravi-kumar-banoth-ph-d-iit-dhanbad-411011105/"
+              href="https://www.linkedin.com/in/dr-ravi-banoth-phd-iit-dhn-411011105/"
               target="_blank"
               rel="noopener noreferrer"
             >

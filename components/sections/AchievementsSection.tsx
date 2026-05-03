@@ -53,7 +53,8 @@ export default function AchievementsSection() {
   ];
 
   const responsibilities = [
-    "Deputy Warden (Boys) (i/c)",
+    "Present : Chief Warden (Boys Hostel)",
+    "Present : Sports Indoor Incharge",
     "Student Discipline (Member)",
     "Campus Maintenance (Member)",
     "Mess Member",
@@ -99,7 +100,7 @@ export default function AchievementsSection() {
                   color: "var(--muted-foreground)",
                 }}
               >
-                📍 {talk.venue}
+                📍<i>{talk.venue}</i>
               </p>
               <p
                 style={{
