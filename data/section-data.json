@@ -1,0 +1,424 @@
+{
+  "about": {
+    "heading": "About Dr. Ravi Banoth",
+    "paragraphs": [
+      "I am Dr. Ravi Banoth, an Assistant Professor at the Department of Electronics and Communication Engineering, IIIT Tiruchirappalli. I received my Ph.D. from the Indian Institute of Technology Dhanbad, Jharkhand, India, in the Department of Electronics Engineering in May 2022. My Master of Technology and Bachelor of Technology degrees in Electronics Communication and Engineering were obtained from the University College of Engineering, JNTU Hyderabad, in 2011 and 2007, respectively.",
+      "I am a member of IEEE. My current research interests lie in Adhoc Networks, Wireless Networks, Intelligent Transportation Systems, Vehicular Adhoc Networks, Internet of Vehicles, Software Defined Networks, Digital Twin Networks, Queueing Theory, Telecommunication Networks, Stochastic Performance Evaluation, and Machine Learning.",
+      "I also serve as a reviewer for numerous journals and conferences. Please explore other sections of this website to learn more about me and my research."
+    ],
+    "phdSupervisor": {
+      "label": "phd supervisor",
+      "name": "Prof. Jaisingh Thangaraj, Associate Professor, Department of Electronics Engineering, IIT(ISM), Dhanbad."
+    },
+    "welcomeMessage": {
+      "heading": "Welcome Message",
+      "quote": "I am always open to collaborating with enthusiastic and self-motivated students interested in research. If you'd like to explore opportunities to work together, feel free to contact me."
+    },
+    "researchInterests": {
+      "heading": "Research Interests",
+      "items": [
+        "Machine learning for wireless communications",
+        "Next generation wireless networks",
+        "5G/6G intelligent networks",
+        "Ad hoc networks and mobile ad hoc networks",
+        "Vehicular communications and intelligent vehicular networks",
+        "Internet of Vehicles",
+        "Software Defined Networks",
+        "Digital Twin Networks",
+        "Zero Touch Provisioning",
+        "Stochastic Networks and Queueing Theory"
+      ]
+    }
+  },
+  "achievements": {
+    "title": "Achievements & Professional Service",
+    "memberships": [
+      "Member of IEEE",
+      "IEEE Communications Society",
+      "IEEE Young Professionals",
+      "OSA (Jan. 2016 - Present)",
+      "SPIE (Jan. 2016 - Present)"
+    ],
+    "talks": [
+      {
+        "event": "National Workshop on Signal Processing for IoT Based Communication (NWSPIBC-2024)",
+        "venue": "Shri Phanishwar Nath Renu Engineering College, Araria",
+        "topic": "Knowledge Defined Vehicular Networks",
+        "date": "January 10, 2024"
+      },
+      {
+        "event": "FDP on Applications of Machine Learning and Internet of Things",
+        "venue": "Bapatla Engineering College, Andhra Pradesh",
+        "topic": "Machine Learning for 6G-Enabled Intelligent Networks",
+        "date": "March 3, 2024"
+      },
+      {
+        "event": "One Week FDP on Recent Trends in Wireless Communications and Networks",
+        "venue": "SENSE, VIT-AP University, Andhra Pradesh",
+        "topic": "Knowledge Defined Vehicular Networks",
+        "date": "July 23, 2024"
+      }
+    ],
+    "reviewJournals": [
+      "IEEE Transactions on Intelligent Vehicles",
+      "IEEE Transactions on Vehicular Technology",
+      "IEEE Transactions on Signal and Information Processing over Networks",
+      "IEEE Internet of Things Journal",
+      "IEEE Transactions on Consumer Electronics",
+      "IEEE Open Journal of Vehicular Technology",
+      "IEEE Access",
+      "Springer Telecommunication Systems",
+      "Springer Journal of Wireless Networks",
+      "Wiley Transactions on Emerging Telecommunications Technologies",
+      "Measurement: Sensors",
+      "Wiley International Journal of Network Management",
+      "Frontiers in Energy Research",
+      "PLOS ONE",
+      "Wiley Internet Technology Letters",
+      "IET Networks",
+      "Scientific Reports",
+      "IEEE Sensors Journal",
+      "IEEE Communication Letters"
+    ],
+    "responsibilities": [
+      "Present : Chief Warden (Boys Hostel)",
+      "Present : Sports Indoor Incharge",
+      "Student Discipline (Member)",
+      "Campus Maintenance (Member)",
+      "Mess Member",
+      "National Service Scheme (NSS) Coordinator",
+      "Class Coordinator"
+    ],
+    "journalReviewerServiceText": "Serving as an expert peer reviewer for leading international journals and publishers across IEEE, Springer, Wiley, Elsevier, and open-access platforms."
+  },
+  "contact": {
+    "title": "Contact",
+    "intro": "I am always open to collaborating with enthusiastic and self-motivated students and researchers. Please reach out through the contact details below.",
+    "cards": [
+      {
+        "title": "Contact Details",
+        "body": [
+          "Dr. Ravi Banoth, Ph.D. (IIT Dhanbad)",
+          "Assistant Professor",
+          "Department of Electronics and Communication Engineering",
+          "First Floor Room No. 2065",
+          "Indian Institute of Information Technology Tiruchirappalli",
+          "Trichy-Madurai Highway, Sethurapatti",
+          "Tiruchirappalli, Tamil Nadu-620012"
+        ]
+      },
+      {
+        "title": "Email",
+        "links": [
+          { "label": "ravib@iiitt.ac.in", "href": "mailto:ravib@iiitt.ac.in" },
+          { "label": "ravi.banoth112@gmail.com", "href": "mailto:ravi.banoth112@gmail.com" }
+        ]
+      },
+      {
+        "title": "Phone",
+        "body": ["+91 98498 82720", "+91 88775 18756"]
+      },
+      {
+        "title": "Profiles",
+        "links": [
+          {
+            "label": "LinkedIn",
+            "href": "https://www.linkedin.com/in/dr-ravi-banoth-phd-iit-dhn-411011105/"
+          },
+          {
+            "label": "Google Scholar",
+            "href": "https://scholar.google.co.in/citations?user=Y6WmauoAAAAJ&hl=en&oi=ao"
+          },
+          {
+            "label": "ORCID",
+            "href": "https://orcid.org/0000-0003-3455-0628"
+          },
+          {
+            "label": "Scopus ID",
+            "href": "https://www.scopus.com/authid/detail.uri?authorId=57197836657"
+          }
+        ]
+      }
+    ]
+  },
+  "education": {
+    "title": "Education",
+    "educationData": [
+      {
+        "degree": "Ph.D.",
+        "date": "February 2016 — May 2022",
+        "org": "Indian Institute of Technology (Indian School of Mines) Dhanbad, Jharkhand, India-826004",
+        "url": "https://www.iitism.ac.in/",
+        "logo": "iit_ism_logo.png",
+        "details": [
+          {
+            "label": "Specialization",
+            "value": "Wireless Ad Hoc Networks, Vehicular Communications, Software Defined Networks, Stochastic Modelling and Analysis, Queueing Theory, Computer Communication Networks"
+          },
+          {
+            "label": "Thesis Title",
+            "value": "STOCHASTIC ANALYSIS IN VEHICULAR AD-HOC NETWORKS"
+          },
+          { "label": "Thesis Supervisor", "value": "Prof. Jaisingh Thangaraj" }
+        ]
+      },
+      {
+        "degree": "M.Tech.",
+        "date": "2009 — 2011",
+        "org": "University College of Engineering, JNTU Hyderabad (Autonomous), Kukatpally, Hyderabad, Telangana, India.",
+        "url": "https://jntuhceh.ac.in/",
+        "logo": "jnut.png",
+        "details": [
+          {
+            "label": "Specialization",
+            "value": "Digital Systems and Computer Electronics, Department of ECE"
+          },
+          {
+            "label": "Thesis Title",
+            "value": "Implementation of Multicast Routing Protocol for Wireless Ad-Hoc Networks"
+          },
+          { "label": "Thesis Supervisor", "value": "Prof. Duggirala Srinivasa Rao" },
+          { "label": "Percentage", "value": "79.06 out of 100" }
+        ]
+      },
+      {
+        "degree": "B.Tech.",
+        "date": "2003 — 2007",
+        "org": "VJIT, Hyderabad, Telangana, India (Under JNTUH)",
+        "url": "https://vjit.ac.in/",
+        "logo": "vjit.png",
+        "details": [
+          {
+            "label": "Specialization",
+            "value": "Electronics and Communication Engineering"
+          },
+          { "label": "Thesis Title", "value": "GSM based Mobile Networks" },
+          { "label": "Percentage", "value": "65.00 out of 100" }
+        ]
+      },
+      {
+        "degree": "Intermediate (10+2)",
+        "date": "2001 — 2003",
+        "org": "New Generation Junior College in Kavi Raj Nagar, Khammam",
+        "url": "#",
+        "logo": "ap.png",
+        "details": [
+          { "label": "Stream", "value": "M.P.C" },
+          { "label": "Board", "value": "Board of Intermediate Education, Andhra Pradesh" },
+          { "label": "Percentage", "value": "86.8 out of 100" }
+        ]
+      },
+      {
+        "degree": "High School (10) — SSC",
+        "date": "2001",
+        "org": "Govt. High School, Garla, Board of Secondary Education, Andhra Pradesh",
+        "url": "#",
+        "logo": "gov.png",
+        "details": [{ "label": "Percentage", "value": "82.5 out of 100" }]
+      }
+    ]
+  },
+  "experience": {
+    "title": "Experience",
+    "summaryLines": ["Teaching Experience: 12+ Years", "Research Experience: 07 Years"],
+    "items": [
+      {
+        "role": "Assistant Professor",
+        "date": "February 2023 — Present",
+        "org": "Department of Electronics and Communication Engineering, Indian Institute of Information Technology Tiruchirappalli (IIITT)",
+        "bullets": [
+          "Teaching and research support for undergraduate and graduate students",
+          "Guidance on projects in networking, communications, and ML",
+          "Course delivery, advanced labs, and student mentoring"
+        ]
+      },
+      {
+        "role": "Assistant Professor",
+        "date": "July 2022 — February 2023",
+        "org": "Department of Electronics & Communication Engineering, MLRIT, Hyderabad",
+        "bullets": [
+          "Principles of Communication, Probability Theory and Stochastic Processes",
+          "Microwave Engineering, Basic Simulation Lab",
+          "<strong>Responsibility:</strong> M.Tech Coordinator"
+        ]
+      },
+      {
+        "role": "Faculty Associate",
+        "date": "July 2021 — May 2022",
+        "org": "Department of Electronics & Communication Engineering, Amrita School of Engineering, Chennai Campus",
+        "bullets": [
+          "Vehicular Communications, Digital System Design",
+          "Communication Networks, Digital System Design Lab"
+        ]
+      },
+      {
+        "role": "Research Scholar cum Teaching Assistant",
+        "date": "February 2016 — February 2021",
+        "org": "Electronics Engineering Department, IIT(ISM) Dhanbad",
+        "bullets": [
+          "Teaching Assistant: Analog Circuits, Signals & Systems, Network Theory & Filter Design, Electronics Instrumentation & Measurements, Optical Communication, Basic Electronics Engineering",
+          "Instructors: Prof. Jaisingh Thangaraj and Prof. Jitendra Kumar"
+        ]
+      },
+      {
+        "role": "Assistant Professor",
+        "date": "July 2012 — February 2016",
+        "org": "Electronics and Communication Engineering, Mahaveer Institute of Science and Technology, Hyderabad",
+        "bullets": [
+          "Data Communication & Computer Networks, Signals & Systems",
+          "VLSI, Electronics Instrumentation & Measurements, Microprocessors",
+          "Antenna Theory & Wave Propagation, Coding Theory & Techniques"
+        ]
+      },
+      {
+        "role": "Assistant Professor",
+        "date": "July 2011 — May 2012",
+        "org": "Electronics and Communication Engineering, DVR Institute of Technology, Hyderabad",
+        "bullets": ["Computer Networks, VLSI, IC Applications, Network Theory Lab"]
+      },
+      {
+        "role": "Assistant Professor",
+        "date": "July 2007 — July 2009",
+        "org": "Electronics and Communication Engineering, DVR Institute of Technology, Hyderabad",
+        "bullets": [
+          "Control Systems, Electronics Device & Circuits",
+          "Analog & Digital Communications, Digital Electronics, Communications Lab"
+        ]
+      }
+    ],
+    "teachingAtTitle": "Teaching at IIITT",
+    "teachingAtParagraphs": [
+      "<strong>AY 2022-2023 (Even):</strong> RF & Microwave Engineering (EC353-C-3), Probability and Random Process (MA252-C-4), Digital Principles and System Design (EC152-C-3), EC451 Project Work.",
+      "<strong>AY 2023-2024 (Odd):</strong> Digital Communication (EC304-C-3), Electronic Circuits (EC201-C-3), Digital Communication Laboratory (EC305-C-2).",
+      "<strong>AY 2023-2024 (Even):</strong> Digital Principles and System Design (EC152-C-3), Probability and Random Process (MA252-C-4), Communication Theory (EC253-C-3), Digital Principles and System Design Laboratory (EC154-C-2).",
+      "<strong>AY 2024-2025 (Odd):</strong> Digital Communication (EC304-C-3), Electronic Circuits (EC201-C-3), Information Theory and Coding (CS649-C-3), Digital Communication Laboratory (EC305-C-2).",
+      "<strong>AY 2024-2025 (Even):</strong> Communication Theory (EC253-C-3), Digital System Design (CS152-C-3), Information Theory and Coding (CS649-C-3), Digital System Design Laboratory (CS154-C-2).",
+      "<strong>AY 2025-2026 (Odd):</strong> Information Theory and Coding (CS649-C-3), Digital Communication (EC304-C-3), Electronic Circuits (24EC201-C-3), Electronic Circuits Laboratory (24EC205-C-2).",
+      "<strong>AY 2025-2026 (Even):</strong> Digital System Design (EC2103-C-3), Basics Electronics Engineering (EC2105-C-3), Analog Circuits (Unit 3), Digital System Design Laboratory (EC2104-C-2)."
+    ]
+  },
+  "publications": {
+    "title": "Publications",
+    "intro": "Selected SCI/SCI-Expanded journal papers and international conference publications.",
+    "journalTitle": "Journal Publications",
+    "journalPublications": [
+      {
+        "title": "Performance analysis of collision avoidance routing protocol for inter-vehicular communication",
+        "authors": "Jaisingh Thangaraj, Banoth Ravi, Sunaina Kumari",
+        "venue": "Cluster Computing, 2019",
+        "details": "SCI | Springer | Impact Factor: 3.6",
+        "link": "https://link.springer.com/article/10.1007/s10586-017-1381-7"
+      },
+      {
+        "title": "Data Traffic Forwarding for Inter-vehicular Communication in VANETs Using Stochastic Method",
+        "authors": "Ravi Banoth, Jaisingh Thangaraj, Shrinivas Petale",
+        "venue": "Wireless Personal Communications, 2019",
+        "details": "SCI | Springer | Impact Factor: 2.017",
+        "link": "https://link.springer.com/article/10.1007/s11277-019-06231-2"
+      },
+      {
+        "title": "Stochastic performance modeling and analysis of multi-service provisioning with software-defined vehicular networks",
+        "authors": "Banoth Ravi, Anmol Gautam, Jaisingh Thangaraj",
+        "venue": "AEU - International Journal of Electronics and Communications, 2020",
+        "details": "SCI | Elsevier | Impact Factor: 3.169",
+        "link": "https://www.sciencedirect.com/science/article/pii/S1434841120300911"
+      },
+      {
+        "title": "Stochastic traffic flow modeling for multi-hop cooperative data dissemination in VANETs",
+        "authors": "Banoth Ravi, Jaisingh Thangaraj",
+        "venue": "Physical Communication, 2021",
+        "details": "SCI | Elsevier | Impact Factor: 2.379",
+        "link": "https://www.sciencedirect.com/science/article/pii/S1874490721000276"
+      },
+      {
+        "title": "Performance Evaluation of Multi-Service Provisioning for Multi-hop Cooperative Data Dissemination in SDHVN",
+        "authors": "Banoth Ravi, Jaisingh Thangaraj",
+        "venue": "Journal of Ambient Intelligence and Humanized Computing, 2021",
+        "details": "SCI | Springer | Q1 | Impact Factor: 4.262",
+        "link": "https://link.springer.com/article/10.1007/s12652-021-03227-4"
+      },
+      {
+        "title": "Stochastic modelling and analysis of mobility models for intelligent software defined internet of vehicles",
+        "authors": "Ravi Banoth, Jaisingh Thangaraj, Shishir Kumar Shandilya",
+        "venue": "Physical Communication, 2022",
+        "details": "SCI | Elsevier | Impact Factor: 2.379",
+        "link": "https://doi.org/10.1016/j.phycom.2021.101498"
+      },
+      {
+        "title": "Stochastic modeling and performance analysis in balancing load and traffic for vehicular ad hoc networks: A review",
+        "authors": "Ravi Banoth et al.",
+        "venue": "International Journal of Network Management, 2023",
+        "details": "SCI | Wiley | Impact Factor: 1.914",
+        "link": "https://doi.org/10.1002/nem.2224"
+      },
+      {
+        "title": "Stochastic Modeling for Intelligent Software-Defined Vehicular Networks: A Survey",
+        "authors": "Ravi Banoth et al.",
+        "venue": "Computers, 2023",
+        "details": "SCI | MDPI | Impact Factor: 2.8",
+        "link": "https://doi.org/10.3390/computers12080162"
+      },
+      {
+        "title": "Comparative Studies of Single-Channel Speech Enhancement Techniques",
+        "authors": "Bittu Kumar, Neeraj Kumar, Manoj Kumar, S. V. S. Prasad, Ashwini Kumar Varma, Banoth Ravi",
+        "venue": "IETE Journal of Research, 2023",
+        "details": "SCI | Impact Factor: 1.5",
+        "link": "https://doi.org/10.1080/03772063.2023.2273299"
+      },
+      {
+        "title": "Impact of Sn-doping on the optoelectronic properties of zinc oxide crystal: DFT approach",
+        "authors": "Manoj Kumar, Purnendu Shekhar Pandey, Banoth Ravi, Bittu Kumar, S. V. S. Prasad, Rajesh Singh, Santosh Kumar Choudhary, Gyanendra Kumar Singh",
+        "venue": "PLOS One, 2024",
+        "details": "SCI | Impact Factor: 3.752",
+        "link": "https://doi.org/10.1371/journal.pone.0296084"
+      },
+      {
+        "title": "Least Mean Square/Fourth Adaptive algorithm for excision of ocular artifacts from EEG signals",
+        "authors": "Chintala Sridhar, Murla Bhumi Reddy, Srihari Gude, Damodar Reddy Edla, Banoth Ravi",
+        "venue": "Applied Acoustics, 2024",
+        "details": "SCI | Impact Factor: 3.4",
+        "link": "https://doi.org/10.1016/j.apacoust.2024.110009"
+      },
+      {
+        "title": "Spectrum Allocation in 5G and Beyond Intelligent Ubiquitous Networks",
+        "authors": "Ravi Banoth, Utkarsh Verma",
+        "venue": "International Journal of Network Management, 2025",
+        "details": "SCI | Wiley | Impact Factor: 1.5",
+        "link": "https://doi.org/10.1002/nem.2315"
+      }
+    ],
+    "conferenceTitle": "Conference Publications",
+    "conferencePublications": [
+      {
+        "title": "End-to-end delay bound analysis of VANETs based on stochastic method via queueing theory model",
+        "authors": "Ravi Banoth, Jaisingh Thangaraj",
+        "venue": "WiSPNET, IEEE, 2017",
+        "link": "https://ieeexplore.ieee.org/document/8300095"
+      },
+      {
+        "title": "Stochastic Network Optimization of Data Dissemination for Multi-hop Routing in VANETs",
+        "authors": "Ravi Banoth, Jaisingh Thangaraj, Shrinivas Petale",
+        "venue": "WiSPNET, IEEE, 2018",
+        "link": "https://ieeexplore.ieee.org/document/8538353"
+      },
+      {
+        "title": "Performance Analysis of AODV and EDAODV Routing Protocol Under Congestion Control in VANETs",
+        "authors": "P. Sailaja, Banoth Ravi, T. Jaisingh",
+        "venue": "ICICCT, IEEE, 2018",
+        "link": "https://ieeexplore.ieee.org/document/8473050"
+      },
+      {
+        "title": "Improved Performance Evaluation of Stochastic Modelling and QoS Analysis of Multi-hop Cooperative Data Dissemination in IVC",
+        "authors": "Ravi Banoth, Jaisingh Thangaraj",
+        "venue": "IMICPW, IEEE, 2019",
+        "link": "https://ieeexplore.ieee.org/document/8933202"
+      },
+      {
+        "title": "Improved End to End Delay Bound analysis in Software Defined Mobile Edge Vehicular Networks",
+        "authors": "Banoth Ravi, Jaisingh Thangaraj",
+        "venue": "5G & Beyond for Rural Upliftment, 2020",
+        "link": "https://doi.org/10.13052/rp-9788770"
+      }
+    ]
+  }
+}

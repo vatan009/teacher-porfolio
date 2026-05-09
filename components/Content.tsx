@@ -57,7 +57,7 @@ export default function Content({ activeSection }: ContentProps) {
   return (
     <div className="min-h-screen transition-colors duration-500 bg-background text-foreground">
       {/* Sticky Header with Toggle */}
-      <header className="sticky top-0 z-50 flex justify-end p-4 bg-background/80 backdrop-blur-md border-b border-border">
+      {/* <header className="sticky top-0 z-50 flex justify-end p-4 bg-background/80 backdrop-blur-md border-b border-border">
         <button
           onClick={() => setIsDark(!isDark)}
           className="p-2 rounded-full hover:bg-accent transition-colors border border-border shadow-sm"
@@ -69,7 +69,7 @@ export default function Content({ activeSection }: ContentProps) {
             <Moon className="w-5 h-5 text-slate-700" />
           )}
         </button>
-      </header>
+      </header> */}
 
       <main className="max-w-5xl mx-auto px-6 py-12 animate-in fade-in slide-in-from-bottom-4 duration-700">
         {renderSection()}

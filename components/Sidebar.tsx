@@ -1,3 +1,6 @@
+"use client";
+
+import { useEffect, useState } from "react";
 import Image from "next/image";
 
 function GithubIcon() {
@@ -73,7 +76,7 @@ export default function Sidebar() {
           <h1 className="profile-name">Dr. Ravi Banoth</h1>
           <p className="profile-title">Assistant Professor</p>
           <p className="profile-dept">
-            Department of Electronics &amp; Communication Engineering
+            Department of Electronics & Communication Engineering
           </p>
           <div className="text-primary mt-2">
             Indian Institute of Information Technology, Tiruchirapalli

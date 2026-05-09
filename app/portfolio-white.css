@@ -1,0 +1,839 @@
+/* Faculty Portfolio - Multi Theme (light + dark)
+   Applied via: html.theme-*
+   Dropdown uses: theme-white, theme-orange, theme-blue, theme-gray, theme-violet, theme-emerald
+   Dark variants: theme-dark-white, theme-dark-orange, theme-dark-blue, theme-dark-gray, theme-dark-violet, theme-dark-emerald
+*/
+
+/* =========================================================
+   LIGHT theme token sets
+   ========================================================= */
+html.theme-white {
+  --background: oklch(0.97 0.015 220);
+  --foreground: oklch(0.16 0.02 220);
+  --card: oklch(0.99 0.01 220);
+  --card-foreground: oklch(0.16 0.02 220);
+  --popover: oklch(0.99 0.01 220);
+  --popover-foreground: oklch(0.16 0.02 220);
+
+  --primary: oklch(0.62 0.14 160);
+  --primary-foreground: oklch(0.99 0.01 220);
+  --secondary: oklch(0.93 0.02 220);
+  --secondary-foreground: oklch(0.16 0.02 220);
+
+  --muted: oklch(0.93 0.02 220);
+  --muted-foreground: oklch(0.42 0.02 220);
+
+  --accent: oklch(0.62 0.14 160);
+  --accent-foreground: oklch(0.99 0.01 220);
+
+  --border: oklch(0.85 0.02 220);
+  --input: oklch(0.95 0.01 220);
+  --ring: oklch(0.62 0.14 160);
+
+  --sidebar: oklch(0.98 0.01 220);
+  --sidebar-foreground: oklch(0.16 0.02 220);
+  --sidebar-primary: oklch(0.62 0.14 160);
+  --sidebar-primary-foreground: oklch(0.99 0.01 220);
+  --sidebar-accent: oklch(0.94 0.02 220);
+  --sidebar-accent-foreground: oklch(0.16 0.02 220);
+  --sidebar-border: oklch(0.85 0.02 220);
+  --sidebar-ring: oklch(0.62 0.14 160);
+}
+
+html.theme-orange {
+  --background: oklch(0.98 0.02 85);
+  --foreground: oklch(0.18 0.03 85);
+  --card: oklch(0.995 0.01 85);
+  --card-foreground: oklch(0.18 0.03 85);
+  --popover: oklch(0.995 0.01 85);
+  --popover-foreground: oklch(0.18 0.03 85);
+
+  --primary: oklch(0.78 0.18 55);
+  --primary-foreground: oklch(0.98 0.02 55);
+  --secondary: oklch(0.94 0.03 85);
+  --secondary-foreground: oklch(0.18 0.03 85);
+
+  --muted: oklch(0.94 0.03 85);
+  --muted-foreground: oklch(0.45 0.03 85);
+
+  --accent: oklch(0.78 0.18 55);
+  --accent-foreground: oklch(0.98 0.02 55);
+
+  --border: oklch(0.86 0.03 85);
+  --input: oklch(0.96 0.02 85);
+  --ring: oklch(0.78 0.18 55);
+
+  --sidebar: oklch(0.995 0.015 85);
+  --sidebar-foreground: oklch(0.18 0.03 85);
+  --sidebar-primary: oklch(0.78 0.18 55);
+  --sidebar-primary-foreground: oklch(0.98 0.02 55);
+  --sidebar-accent: oklch(0.94 0.03 85);
+  --sidebar-accent-foreground: oklch(0.18 0.03 85);
+  --sidebar-border: oklch(0.86 0.03 85);
+  --sidebar-ring: oklch(0.78 0.18 55);
+}
+
+html.theme-blue {
+  --background: oklch(0.98 0.02 220);
+  --foreground: oklch(0.18 0.03 220);
+  --card: oklch(0.995 0.01 220);
+  --card-foreground: oklch(0.18 0.03 220);
+  --popover: oklch(0.995 0.01 220);
+  --popover-foreground: oklch(0.18 0.03 220);
+
+  --primary: oklch(0.65 0.18 210);
+  --primary-foreground: oklch(0.98 0.02 220);
+  --secondary: oklch(0.93 0.03 220);
+  --secondary-foreground: oklch(0.18 0.03 220);
+
+  --muted: oklch(0.93 0.03 220);
+  --muted-foreground: oklch(0.45 0.03 220);
+
+  --accent: oklch(0.65 0.18 210);
+  --accent-foreground: oklch(0.98 0.02 220);
+
+  --border: oklch(0.86 0.03 220);
+  --input: oklch(0.96 0.02 220);
+  --ring: oklch(0.65 0.18 210);
+
+  --sidebar: oklch(0.995 0.015 220);
+  --sidebar-foreground: oklch(0.18 0.03 220);
+  --sidebar-primary: oklch(0.65 0.18 210);
+  --sidebar-primary-foreground: oklch(0.98 0.02 220);
+  --sidebar-accent: oklch(0.93 0.03 220);
+  --sidebar-accent-foreground: oklch(0.18 0.03 220);
+  --sidebar-border: oklch(0.86 0.03 220);
+  --sidebar-ring: oklch(0.65 0.18 210);
+}
+
+html.theme-gray {
+  --background: oklch(0.98 0.01 240);
+  --foreground: oklch(0.18 0.02 240);
+  --card: oklch(0.995 0.01 240);
+  --card-foreground: oklch(0.18 0.02 240);
+  --popover: oklch(0.995 0.01 240);
+  --popover-foreground: oklch(0.18 0.02 240);
+
+  --primary: oklch(0.6 0.08 250);
+  --primary-foreground: oklch(0.99 0.01 240);
+  --secondary: oklch(0.93 0.015 240);
+  --secondary-foreground: oklch(0.18 0.02 240);
+
+  --muted: oklch(0.93 0.015 240);
+  --muted-foreground: oklch(0.45 0.015 240);
+
+  --accent: oklch(0.6 0.08 250);
+  --accent-foreground: oklch(0.99 0.01 240);
+
+  --border: oklch(0.84 0.015 240);
+  --input: oklch(0.96 0.01 240);
+  --ring: oklch(0.6 0.08 250);
+
+  --sidebar: oklch(0.995 0.01 240);
+  --sidebar-foreground: oklch(0.18 0.02 240);
+  --sidebar-primary: oklch(0.6 0.08 250);
+  --sidebar-primary-foreground: oklch(0.99 0.01 240);
+  --sidebar-accent: oklch(0.93 0.015 240);
+  --sidebar-accent-foreground: oklch(0.18 0.02 240);
+  --sidebar-border: oklch(0.84 0.015 240);
+  --sidebar-ring: oklch(0.6 0.08 250);
+}
+
+/* Violet + Emerald (light) */
+html.theme-violet {
+  --background: oklch(0.985 0.015 265);
+  --foreground: oklch(0.18 0.02 265);
+  --card: oklch(0.995 0.01 265);
+  --card-foreground: oklch(0.18 0.02 265);
+  --popover: oklch(0.995 0.01 265);
+  --popover-foreground: oklch(0.18 0.02 265);
+
+  --primary: oklch(0.68 0.16 300);
+  --primary-foreground: oklch(0.99 0.01 265);
+  --secondary: oklch(0.94 0.02 265);
+  --secondary-foreground: oklch(0.18 0.02 265);
+
+  --muted: oklch(0.94 0.02 265);
+  --muted-foreground: oklch(0.45 0.02 265);
+
+  --accent: oklch(0.68 0.16 300);
+  --accent-foreground: oklch(0.99 0.01 265);
+
+  --border: oklch(0.86 0.02 265);
+  --input: oklch(0.96 0.01 265);
+  --ring: oklch(0.68 0.16 300);
+
+  --sidebar: oklch(0.995 0.01 265);
+  --sidebar-foreground: oklch(0.18 0.02 265);
+  --sidebar-primary: oklch(0.68 0.16 300);
+  --sidebar-primary-foreground: oklch(0.99 0.01 265);
+  --sidebar-accent: oklch(0.94 0.02 265);
+  --sidebar-accent-foreground: oklch(0.18 0.02 265);
+  --sidebar-border: oklch(0.86 0.02 265);
+  --sidebar-ring: oklch(0.68 0.16 300);
+}
+
+html.theme-emerald {
+  --background: oklch(0.985 0.015 165);
+  --foreground: oklch(0.18 0.02 165);
+  --card: oklch(0.995 0.01 165);
+  --card-foreground: oklch(0.18 0.02 165);
+  --popover: oklch(0.995 0.01 165);
+  --popover-foreground: oklch(0.18 0.02 165);
+
+  --primary: oklch(0.60 0.18 160);
+  --primary-foreground: oklch(0.99 0.01 165);
+  --secondary: oklch(0.94 0.02 165);
+  --secondary-foreground: oklch(0.18 0.02 165);
+
+  --muted: oklch(0.94 0.02 165);
+  --muted-foreground: oklch(0.45 0.02 165);
+
+  --accent: oklch(0.60 0.18 160);
+  --accent-foreground: oklch(0.99 0.01 165);
+
+  --border: oklch(0.86 0.02 165);
+  --input: oklch(0.96 0.01 165);
+  --ring: oklch(0.60 0.18 160);
+
+  --sidebar: oklch(0.995 0.01 165);
+  --sidebar-foreground: oklch(0.18 0.02 165);
+  --sidebar-primary: oklch(0.60 0.18 160);
+  --sidebar-primary-foreground: oklch(0.99 0.01 165);
+  --sidebar-accent: oklch(0.94 0.02 165);
+  --sidebar-accent-foreground: oklch(0.18 0.02 165);
+  --sidebar-border: oklch(0.86 0.02 165);
+  --sidebar-ring: oklch(0.60 0.18 160);
+}
+
+/* =========================================================
+   DARK theme token sets
+   ========================================================= */
+html.theme-dark-white {
+  --background: oklch(0.15 0.015 230);
+  --foreground: oklch(0.92 0.01 220);
+  --card: oklch(0.18 0.012 230);
+  --card-foreground: oklch(0.92 0.01 220);
+  --popover: oklch(0.18 0.012 230);
+  --popover-foreground: oklch(0.92 0.01 220);
+
+  --primary: oklch(0.75 0.12 180);
+  --primary-foreground: oklch(0.15 0.015 230);
+  --secondary: oklch(0.25 0.015 230);
+  --secondary-foreground: oklch(0.85 0.01 220);
+
+  --muted: oklch(0.25 0.012 230);
+  --muted-foreground: oklch(0.65 0.02 220);
+
+  --accent: oklch(0.75 0.12 180);
+  --accent-foreground: oklch(0.15 0.015 230);
+
+  --border: oklch(0.28 0.015 230);
+  --input: oklch(0.22 0.012 230);
+  --ring: oklch(0.75 0.12 180);
+
+  --sidebar: oklch(0.12 0.015 230);
+  --sidebar-foreground: oklch(0.92 0.01 220);
+  --sidebar-primary: oklch(0.75 0.12 180);
+  --sidebar-primary-foreground: oklch(0.15 0.015 230);
+  --sidebar-accent: oklch(0.2 0.012 230);
+  --sidebar-accent-foreground: oklch(0.85 0.01 220);
+  --sidebar-border: oklch(0.25 0.012 230);
+  --sidebar-ring: oklch(0.75 0.12 180);
+}
+
+html.theme-dark-orange {
+  --background: oklch(0.15 0.02 85);
+  --foreground: oklch(0.92 0.01 70);
+  --card: oklch(0.18 0.012 85);
+  --card-foreground: oklch(0.92 0.01 70);
+  --popover: oklch(0.18 0.012 85);
+  --popover-foreground: oklch(0.92 0.01 70);
+
+  --primary: oklch(0.82 0.18 55);
+  --primary-foreground: oklch(0.15 0.02 85);
+  --secondary: oklch(0.25 0.03 85);
+  --secondary-foreground: oklch(0.85 0.01 70);
+
+  --muted: oklch(0.25 0.012 85);
+  --muted-foreground: oklch(0.65 0.02 70);
+
+  --accent: oklch(0.82 0.18 55);
+  --accent-foreground: oklch(0.15 0.02 85);
+
+  --border: oklch(0.28 0.02 85);
+  --input: oklch(0.22 0.012 85);
+  --ring: oklch(0.82 0.18 55);
+
+  --sidebar: oklch(0.12 0.02 85);
+  --sidebar-foreground: oklch(0.92 0.01 70);
+  --sidebar-primary: oklch(0.82 0.18 55);
+  --sidebar-primary-foreground: oklch(0.15 0.02 85);
+  --sidebar-accent: oklch(0.2 0.02 85);
+  --sidebar-accent-foreground: oklch(0.85 0.01 70);
+  --sidebar-border: oklch(0.25 0.02 85);
+  --sidebar-ring: oklch(0.82 0.18 55);
+}
+
+html.theme-dark-blue {
+  --background: oklch(0.15 0.015 220);
+  --foreground: oklch(0.92 0.01 220);
+  --card: oklch(0.18 0.012 220);
+  --card-foreground: oklch(0.92 0.01 220);
+  --popover: oklch(0.18 0.012 220);
+  --popover-foreground: oklch(0.92 0.01 220);
+
+  --primary: oklch(0.70 0.18 210);
+  --primary-foreground: oklch(0.15 0.015 220);
+  --secondary: oklch(0.25 0.015 220);
+  --secondary-foreground: oklch(0.85 0.01 220);
+
+  --muted: oklch(0.25 0.012 220);
+  --muted-foreground: oklch(0.65 0.02 220);
+
+  --accent: oklch(0.70 0.18 210);
+  --accent-foreground: oklch(0.15 0.015 220);
+
+  --border: oklch(0.28 0.015 220);
+  --input: oklch(0.22 0.012 220);
+  --ring: oklch(0.70 0.18 210);
+
+  --sidebar: oklch(0.12 0.015 220);
+  --sidebar-foreground: oklch(0.92 0.01 220);
+  --sidebar-primary: oklch(0.70 0.18 210);
+  --sidebar-primary-foreground: oklch(0.15 0.015 220);
+  --sidebar-accent: oklch(0.2 0.012 220);
+  --sidebar-accent-foreground: oklch(0.85 0.01 220);
+  --sidebar-border: oklch(0.25 0.012 220);
+  --sidebar-ring: oklch(0.70 0.18 210);
+}
+
+html.theme-dark-gray {
+  --background: oklch(0.15 0.015 240);
+  --foreground: oklch(0.92 0.01 240);
+  --card: oklch(0.18 0.012 240);
+  --card-foreground: oklch(0.92 0.01 240);
+  --popover: oklch(0.18 0.012 240);
+  --popover-foreground: oklch(0.92 0.01 240);
+
+  --primary: oklch(0.65 0.08 250);
+  --primary-foreground: oklch(0.15 0.015 240);
+  --secondary: oklch(0.25 0.015 240);
+  --secondary-foreground: oklch(0.85 0.01 240);
+
+  --muted: oklch(0.25 0.012 240);
+  --muted-foreground: oklch(0.65 0.02 240);
+
+  --accent: oklch(0.65 0.08 250);
+  --accent-foreground: oklch(0.15 0.015 240);
+
+  --border: oklch(0.28 0.015 240);
+  --input: oklch(0.22 0.012 240);
+  --ring: oklch(0.65 0.08 250);
+
+  --sidebar: oklch(0.12 0.015 240);
+  --sidebar-foreground: oklch(0.92 0.01 240);
+  --sidebar-primary: oklch(0.65 0.08 250);
+  --sidebar-primary-foreground: oklch(0.15 0.015 240);
+  --sidebar-accent: oklch(0.2 0.012 240);
+  --sidebar-accent-foreground: oklch(0.85 0.01 240);
+  --sidebar-border: oklch(0.25 0.012 240);
+  --sidebar-ring: oklch(0.65 0.08 250);
+}
+
+html.theme-dark-violet {
+  --background: oklch(0.15 0.015 265);
+  --foreground: oklch(0.92 0.01 265);
+  --card: oklch(0.18 0.012 265);
+  --card-foreground: oklch(0.92 0.01 265);
+  --popover: oklch(0.18 0.012 265);
+  --popover-foreground: oklch(0.92 0.01 265);
+
+  --primary: oklch(0.72 0.16 300);
+  --primary-foreground: oklch(0.15 0.015 265);
+  --secondary: oklch(0.25 0.015 265);
+  --secondary-foreground: oklch(0.85 0.01 265);
+
+  --muted: oklch(0.25 0.012 265);
+  --muted-foreground: oklch(0.65 0.02 265);
+
+  --accent: oklch(0.72 0.16 300);
+  --accent-foreground: oklch(0.15 0.015 265);
+
+  --border: oklch(0.28 0.015 265);
+  --input: oklch(0.22 0.012 265);
+  --ring: oklch(0.72 0.16 300);
+
+  --sidebar: oklch(0.12 0.015 265);
+  --sidebar-foreground: oklch(0.92 0.01 265);
+  --sidebar-primary: oklch(0.72 0.16 300);
+  --sidebar-primary-foreground: oklch(0.15 0.015 265);
+  --sidebar-accent: oklch(0.2 0.012 265);
+  --sidebar-accent-foreground: oklch(0.85 0.01 265);
+  --sidebar-border: oklch(0.25 0.012 265);
+  --sidebar-ring: oklch(0.72 0.16 300);
+}
+
+html.theme-dark-emerald {
+  --background: oklch(0.15 0.015 165);
+  --foreground: oklch(0.92 0.01 165);
+  --card: oklch(0.18 0.012 165);
+  --card-foreground: oklch(0.92 0.01 165);
+  --popover: oklch(0.18 0.012 165);
+  --popover-foreground: oklch(0.92 0.01 165);
+
+  --primary: oklch(0.60 0.18 160);
+  --primary-foreground: oklch(0.15 0.015 165);
+  --secondary: oklch(0.25 0.015 165);
+  --secondary-foreground: oklch(0.85 0.01 165);
+
+  --muted: oklch(0.25 0.012 165);
+  --muted-foreground: oklch(0.65 0.02 165);
+
+  --accent: oklch(0.60 0.18 160);
+  --accent-foreground: oklch(0.15 0.015 165);
+
+  --border: oklch(0.28 0.015 165);
+  --input: oklch(0.22 0.012 165);
+  --ring: oklch(0.60 0.18 160);
+
+  --sidebar: oklch(0.12 0.015 165);
+  --sidebar-foreground: oklch(0.92 0.01 165);
+  --sidebar-primary: oklch(0.60 0.18 160);
+  --sidebar-primary-foreground: oklch(0.15 0.015 165);
+  --sidebar-accent: oklch(0.2 0.012 165);
+  --sidebar-accent-foreground: oklch(0.85 0.01 165);
+  --sidebar-border: oklch(0.25 0.012 165);
+  --sidebar-ring: oklch(0.60 0.18 160);
+}
+
+/* =========================================================
+   Shared overrides for ALL themes
+   ========================================================= */
+html.theme-white,
+html.theme-orange,
+html.theme-blue,
+html.theme-gray,
+html.theme-violet,
+html.theme-emerald,
+html.theme-dark-white,
+html.theme-dark-orange,
+html.theme-dark-blue,
+html.theme-dark-gray,
+html.theme-dark-violet,
+html.theme-dark-emerald {
+  background-color: var(--background);
+}
+
+/* Layout surfaces */
+html.theme-white .app-container,
+html.theme-orange .app-container,
+html.theme-blue .app-container,
+html.theme-gray .app-container,
+html.theme-violet .app-container,
+html.theme-emerald .app-container,
+html.theme-dark-white .app-container,
+html.theme-dark-orange .app-container,
+html.theme-dark-blue .app-container,
+html.theme-dark-gray .app-container,
+html.theme-dark-violet .app-container,
+html.theme-dark-emerald .app-container {
+  background-color: var(--background);
+}
+
+html.theme-white .sidebar,
+html.theme-orange .sidebar,
+html.theme-blue .sidebar,
+html.theme-gray .sidebar,
+html.theme-violet .sidebar,
+html.theme-emerald .sidebar,
+html.theme-dark-white .sidebar,
+html.theme-dark-orange .sidebar,
+html.theme-dark-blue .sidebar,
+html.theme-dark-gray .sidebar,
+html.theme-dark-violet .sidebar,
+html.theme-dark-emerald .sidebar {
+  background-color: var(--sidebar);
+  border-right-color: var(--border);
+}
+
+html.theme-white .navbar,
+html.theme-orange .navbar,
+html.theme-blue .navbar,
+html.theme-gray .navbar,
+html.theme-violet .navbar,
+html.theme-emerald .navbar,
+html.theme-dark-white .navbar,
+html.theme-dark-orange .navbar,
+html.theme-dark-blue .navbar,
+html.theme-dark-gray .navbar,
+html.theme-dark-violet .navbar,
+html.theme-dark-emerald .navbar {
+  border-bottom-color: var(--border);
+  background-color: var(--background);
+}
+
+/* Navbar items */
+html.theme-white .nav-item,
+html.theme-orange .nav-item,
+html.theme-blue .nav-item,
+html.theme-gray .nav-item,
+html.theme-violet .nav-item,
+html.theme-emerald .nav-item,
+html.theme-dark-white .nav-item,
+html.theme-dark-orange .nav-item,
+html.theme-dark-blue .nav-item,
+html.theme-dark-gray .nav-item,
+html.theme-dark-violet .nav-item,
+html.theme-dark-emerald .nav-item {
+  color: var(--muted-foreground);
+}
+
+html.theme-white .nav-item:hover,
+html.theme-white .nav-item.active,
+html.theme-orange .nav-item:hover,
+html.theme-orange .nav-item.active,
+html.theme-blue .nav-item:hover,
+html.theme-blue .nav-item.active,
+html.theme-gray .nav-item:hover,
+html.theme-gray .nav-item.active,
+html.theme-violet .nav-item:hover,
+html.theme-violet .nav-item.active,
+html.theme-emerald .nav-item:hover,
+html.theme-emerald .nav-item.active,
+html.theme-dark-white .nav-item:hover,
+html.theme-dark-white .nav-item.active,
+html.theme-dark-orange .nav-item:hover,
+html.theme-dark-orange .nav-item.active,
+html.theme-dark-blue .nav-item:hover,
+html.theme-dark-blue .nav-item.active,
+html.theme-dark-gray .nav-item:hover,
+html.theme-dark-gray .nav-item.active,
+html.theme-dark-violet .nav-item:hover,
+html.theme-dark-violet .nav-item.active,
+html.theme-dark-emerald .nav-item:hover,
+html.theme-dark-emerald .nav-item.active {
+  color: var(--foreground);
+}
+
+html.theme-white .nav-item::before,
+html.theme-orange .nav-item::before,
+html.theme-blue .nav-item::before,
+html.theme-gray .nav-item::before,
+html.theme-violet .nav-item::before,
+html.theme-emerald .nav-item::before,
+html.theme-dark-white .nav-item::before,
+html.theme-dark-orange .nav-item::before,
+html.theme-dark-blue .nav-item::before,
+html.theme-dark-gray .nav-item::before,
+html.theme-dark-violet .nav-item::before,
+html.theme-dark-emerald .nav-item::before {
+  background-color: var(--primary);
+}
+
+/* Headings / text */
+html.theme-white .content-section h2,
+html.theme-orange .content-section h2,
+html.theme-blue .content-section h2,
+html.theme-gray .content-section h2,
+html.theme-violet .content-section h2,
+html.theme-emerald .content-section h2,
+html.theme-dark-white .content-section h2,
+html.theme-dark-orange .content-section h2,
+html.theme-dark-blue .content-section h2,
+html.theme-dark-gray .content-section h2,
+html.theme-dark-violet .content-section h2,
+html.theme-dark-emerald .content-section h2,
+html.theme-white .content-section h3,
+html.theme-orange .content-section h3,
+html.theme-blue .content-section h3,
+html.theme-gray .content-section h3,
+html.theme-violet .content-section h3,
+html.theme-emerald .content-section h3,
+html.theme-dark-white .content-section h3,
+html.theme-dark-orange .content-section h3,
+html.theme-dark-blue .content-section h3,
+html.theme-dark-gray .content-section h3,
+html.theme-dark-violet .content-section h3,
+html.theme-dark-emerald .content-section h3 {
+  color: var(--foreground);
+}
+
+html.theme-white .content-section p,
+html.theme-orange .content-section p,
+html.theme-blue .content-section p,
+html.theme-gray .content-section p,
+html.theme-violet .content-section p,
+html.theme-emerald .content-section p,
+html.theme-dark-white .content-section p,
+html.theme-dark-orange .content-section p,
+html.theme-dark-blue .content-section p,
+html.theme-dark-gray .content-section p,
+html.theme-dark-violet .content-section p,
+html.theme-dark-emerald .content-section p {
+  color: var(--muted-foreground);
+}
+
+/* Links */
+html.theme-white .content-section a,
+html.theme-orange .content-section a,
+html.theme-blue .content-section a,
+html.theme-gray .content-section a,
+html.theme-violet .content-section a,
+html.theme-emerald .content-section a,
+html.theme-dark-white .content-section a,
+html.theme-dark-orange .content-section a,
+html.theme-dark-blue .content-section a,
+html.theme-dark-gray .content-section a,
+html.theme-dark-violet .content-section a,
+html.theme-dark-emerald .content-section a {
+  color: var(--primary);
+}
+
+/* Research pills */
+html.theme-white .research-list li,
+html.theme-orange .research-list li,
+html.theme-blue .research-list li,
+html.theme-gray .research-list li,
+html.theme-violet .research-list li,
+html.theme-emerald .research-list li,
+html.theme-dark-white .research-list li,
+html.theme-dark-orange .research-list li,
+html.theme-dark-blue .research-list li,
+html.theme-dark-gray .research-list li,
+html.theme-dark-violet .research-list li,
+html.theme-dark-emerald .research-list li {
+  background-color: var(--secondary);
+  border-color: var(--border);
+  color: var(--foreground);
+}
+
+/* Cards */
+html.theme-white .publication-item,
+html.theme-orange .publication-item,
+html.theme-blue .publication-item,
+html.theme-gray .publication-item,
+html.theme-violet .publication-item,
+html.theme-emerald .publication-item,
+html.theme-dark-white .publication-item,
+html.theme-dark-orange .publication-item,
+html.theme-dark-blue .publication-item,
+html.theme-dark-gray .publication-item,
+html.theme-dark-violet .publication-item,
+html.theme-dark-emerald .publication-item,
+html.theme-white .contact-card,
+html.theme-orange .contact-card,
+html.theme-blue .contact-card,
+html.theme-gray .contact-card,
+html.theme-violet .contact-card,
+html.theme-emerald .contact-card,
+html.theme-dark-white .contact-card,
+html.theme-dark-orange .contact-card,
+html.theme-dark-blue .contact-card,
+html.theme-dark-gray .contact-card,
+html.theme-dark-violet .contact-card,
+html.theme-dark-emerald .contact-card,
+html.theme-white .achievement-card,
+html.theme-orange .achievement-card,
+html.theme-blue .achievement-card,
+html.theme-gray .achievement-card,
+html.theme-violet .achievement-card,
+html.theme-emerald .achievement-card,
+html.theme-dark-white .achievement-card,
+html.theme-dark-orange .achievement-card,
+html.theme-dark-blue .achievement-card,
+html.theme-dark-gray .achievement-card,
+html.theme-dark-violet .achievement-card,
+html.theme-dark-emerald .achievement-card {
+  background-color: var(--card);
+  border-color: var(--border);
+}
+
+/* Hover accents */
+html.theme-white .publication-item:hover,
+html.theme-orange .publication-item:hover,
+html.theme-blue .publication-item:hover,
+html.theme-gray .publication-item:hover,
+html.theme-violet .publication-item:hover,
+html.theme-emerald .publication-item:hover,
+html.theme-dark-white .publication-item:hover,
+html.theme-dark-orange .publication-item:hover,
+html.theme-dark-blue .publication-item:hover,
+html.theme-dark-gray .publication-item:hover,
+html.theme-dark-violet .publication-item:hover,
+html.theme-dark-emerald .publication-item:hover,
+html.theme-white .contact-card:hover,
+html.theme-orange .contact-card:hover,
+html.theme-blue .contact-card:hover,
+html.theme-gray .contact-card:hover,
+html.theme-violet .contact-card:hover,
+html.theme-emerald .contact-card:hover,
+html.theme-dark-white .contact-card:hover,
+html.theme-dark-orange .contact-card:hover,
+html.theme-dark-blue .contact-card:hover,
+html.theme-dark-gray .contact-card:hover,
+html.theme-dark-violet .contact-card:hover,
+html.theme-dark-emerald .contact-card:hover,
+html.theme-white .achievement-card:hover,
+html.theme-orange .achievement-card:hover,
+html.theme-blue .achievement-card:hover,
+html.theme-gray .achievement-card:hover,
+html.theme-violet .achievement-card:hover,
+html.theme-emerald .achievement-card:hover,
+html.theme-dark-white .achievement-card:hover,
+html.theme-dark-orange .achievement-card:hover,
+html.theme-dark-blue .achievement-card:hover,
+html.theme-dark-gray .achievement-card:hover,
+html.theme-dark-violet .achievement-card:hover,
+html.theme-dark-emerald .achievement-card:hover {
+  border-color: var(--primary);
+  box-shadow: 0 10px 26px rgba(0, 0, 0, 0.18);
+}
+
+/* Dropdown (Navbar) styling */
+.theme-select-wrapper {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+  padding: 0.45rem 0.75rem;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  background: var(--card);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+}
+
+.theme-select-label {
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: var(--muted-foreground);
+  white-space: nowrap;
+}
+
+.theme-select {
+  border: none;
+  outline: none;
+  background: transparent;
+  color: var(--foreground);
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.theme-select:disabled {
+  opacity: 0.7;
+  cursor: default;
+}
+
+.theme-select-fallback {
+  font-size: 0.9rem;
+  color: var(--muted-foreground);
+}
+
+/* Focus states */
+.theme-select-wrapper:focus-within {
+  box-shadow: 0 0 0 4px color-mix(in oklab, var(--primary) 35%, transparent);
+  border-color: var(--primary);
+}
+
+/* ===== Thin scrollbar themed for sidebar ===== */
+.sidebar {
+  scrollbar-width: thin;
+  scrollbar-color: var(--primary) var(--border);
+}
+
+.sidebar::-webkit-scrollbar {
+  width: 8px;
+}
+.sidebar::-webkit-scrollbar-track {
+  background: transparent;
+}
+.sidebar::-webkit-scrollbar-thumb {
+  background-color: var(--primary);
+  border-radius: 999px;
+  border: 2px solid var(--border);
+}
+.sidebar::-webkit-scrollbar-thumb:hover {
+  background-color: color-mix(in oklab, var(--primary) 85%, transparent 15%);
+}
+
+/* =========================================================
+   Professional animations (theme-aware)
+   ========================================================= */
+
+@keyframes pp-fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+    filter: blur(0.5px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+    filter: blur(0);
+  }
+}
+
+@keyframes pp-cardIn {
+  from {
+    opacity: 0;
+    transform: translateY(14px) scale(0.99);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+@keyframes pp-underlineGrow {
+  from {
+    width: 0;
+    opacity: 0.6;
+  }
+  to {
+    width: 2rem;
+    opacity: 1;
+  }
+}
+
+@keyframes pp-dropdownPop {
+  from {
+    opacity: 0;
+    transform: translateY(-6px) scale(0.98);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+/* Apply animations only inside theme pages */
+html[class*="theme-"] .content-section {
+  animation: pp-fadeInUp 0.55s ease-out both;
+}
+
+html[class*="theme-"] .publication-item,
+html[class*="theme-"] .contact-card,
+html[class*="theme-"] .achievement-card {
+  animation: pp-cardIn 0.6s ease-out both;
+}
+
+html[class*="theme-"] .nav-item.active::before {
+  animation: pp-underlineGrow 0.35s ease-out both;
+}
+
+/* Dropdown */
+html[class*="theme-"] .theme-select-wrapper {
+  animation: pp-dropdownPop 0.35s ease-out both;
+}
+
+/* Respect reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  html[class*="theme-"] .content-section,
+  html[class*="theme-"] .publication-item,
+  html[class*="theme-"] .contact-card,
+  html[class*="theme-"] .achievement-card,
+  html[class*="theme-"] .nav-item.active::before,
+  html[class*="theme-"] .theme-select-wrapper {
+    animation: none !important;
+  }
+}
